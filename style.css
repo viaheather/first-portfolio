@@ -1,0 +1,96 @@
+* {
+    background-color: #42494A;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px #736d65;
+    text-align: center;
+    color: #e3d6c5;
+}
+
+h1 {
+    font-size: 40px;    
+}
+
+#name {
+    height: 40px;
+    width: 500px;
+    background-color: #A1795A;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    background-color: #6F6947;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #6F6947;
+    cursor: grab;
+    font-weight: bolder;
+}
+
+.about {
+    margin: 0 auto;
+    background-color: #A1795A;
+    max-width: 60%;
+}
+
+.about a {
+    text-decoration: none;
+    background-color: #A1795A;
+    cursor: grab;
+}
+
+#headshot {
+    max-width: 50%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#projects:after {
+    display: table;
+    clear: both;
+}
+
+#projects {
+    max-height: 400px;
+    background-color: #E3D6C5;
+}
+
+.bbPic {
+    max-height: 200px;
+}
+
+p {
+    margin: 0px 0px -10px -10px;
+}
+
+#contact {
+    align-items: left;
+    font-size: 20px;
+}
+
+.button {
+    background: #6F6947;
+    height: 50px;
+    border-style: groove;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}

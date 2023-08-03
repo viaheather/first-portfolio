@@ -67,14 +67,12 @@ nav a {
 
 #projects {
     max-height: 400px;
-    background-color: #E3D6C5;
+    float: left;
 }
 
 .bbPic {
     max-height: 200px;
 }
-
-
 
 #contact {
     align-items: left;
